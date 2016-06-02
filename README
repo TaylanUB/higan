@@ -1,0 +1,19 @@
+The author of higan (byuu) prefers package managers not to download
+the sources from his homepage, so we keep this mirror for GNU Guix.
+
+Note that the sources are not version-controlled by the author.  This
+repository is updated to new releases via the following steps after
+each release by the author:
+
+1. Remove all files and directories except `add-gitkeep-files.sh`.
+2. Extract the new sources.
+3. Run `add-gitkeep-files.sh`.
+4. Commit all changes and tag the commit.
+
+The `.gitkeep` files are necessary because git does not track empty
+directories.
+
+The other git mirror of the sources at GitLab are not always up to
+date, not always properly tagged, and the owner of the repository
+might not always be possible to contact, should the GNU Guix
+maintainers need to do so.
